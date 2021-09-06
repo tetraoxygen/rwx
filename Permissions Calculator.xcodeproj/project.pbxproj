@@ -15,6 +15,14 @@
 		7AFC74D926E5830C00E871DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74B526E5830B00E871DE /* ContentView.swift */; };
 		7AFC74DA26E5830C00E871DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC74B626E5830C00E871DE /* Assets.xcassets */; };
 		7AFC74DB26E5830C00E871DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC74B626E5830C00E871DE /* Assets.xcassets */; };
+		7AFC74EB26E5840C00E871DE /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74EA26E5840C00E871DE /* PermissionView.swift */; };
+		7AFC74EC26E5840C00E871DE /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74EA26E5840C00E871DE /* PermissionView.swift */; };
+		7AFC74EE26E5884300E871DE /* BitArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74ED26E5884300E871DE /* BitArray.swift */; };
+		7AFC74EF26E5884300E871DE /* BitArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74ED26E5884300E871DE /* BitArray.swift */; };
+		7AFC74F126E58C1A00E871DE /* StringEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74F026E58C1A00E871DE /* StringEncoding.swift */; };
+		7AFC74F226E58C1A00E871DE /* StringEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74F026E58C1A00E871DE /* StringEncoding.swift */; };
+		7AFC74F426E5996E00E871DE /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74F326E5996E00E871DE /* Permissions.swift */; };
+		7AFC74F526E5996E00E871DE /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74F326E5996E00E871DE /* Permissions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,10 @@
 		7AFC74CA26E5830C00E871DE /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		7AFC74D026E5830C00E871DE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFC74D426E5830C00E871DE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7AFC74EA26E5840C00E871DE /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		7AFC74ED26E5884300E871DE /* BitArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitArray.swift; sourceTree = "<group>"; };
+		7AFC74F026E58C1A00E871DE /* StringEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEncoding.swift; sourceTree = "<group>"; };
+		7AFC74F326E5996E00E871DE /* Permissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +103,12 @@
 		7AFC74B326E5830B00E871DE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7AFC74F026E58C1A00E871DE /* StringEncoding.swift */,
 				7AFC74B426E5830B00E871DE /* Permissions_CalculatorApp.swift */,
 				7AFC74B526E5830B00E871DE /* ContentView.swift */,
+				7AFC74F326E5996E00E871DE /* Permissions.swift */,
+				7AFC74ED26E5884300E871DE /* BitArray.swift */,
+				7AFC74EA26E5840C00E871DE /* PermissionView.swift */,
 				7AFC74B626E5830C00E871DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -283,8 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFC74F126E58C1A00E871DE /* StringEncoding.swift in Sources */,
+				7AFC74EB26E5840C00E871DE /* PermissionView.swift in Sources */,
 				7AFC74D826E5830C00E871DE /* ContentView.swift in Sources */,
+				7AFC74F426E5996E00E871DE /* Permissions.swift in Sources */,
 				7AFC74D626E5830C00E871DE /* Permissions_CalculatorApp.swift in Sources */,
+				7AFC74EE26E5884300E871DE /* BitArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFC74F226E58C1A00E871DE /* StringEncoding.swift in Sources */,
+				7AFC74EC26E5840C00E871DE /* PermissionView.swift in Sources */,
 				7AFC74D926E5830C00E871DE /* ContentView.swift in Sources */,
+				7AFC74F526E5996E00E871DE /* Permissions.swift in Sources */,
 				7AFC74D726E5830C00E871DE /* Permissions_CalculatorApp.swift in Sources */,
+				7AFC74EF26E5884300E871DE /* BitArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
