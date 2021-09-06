@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 extension BinaryInteger {
 	/// Gets the bit at the specified bit index in the receiver, reading from
 	/// least to most-significant bit.

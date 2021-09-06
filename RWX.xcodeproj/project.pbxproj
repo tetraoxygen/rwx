@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7AE128B526E6BFF2002E44CE /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		7AFC74B426E5830B00E871DE /* Permissions_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions_CalculatorApp.swift; sourceTree = "<group>"; };
 		7AFC74B526E5830B00E871DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AFC74B626E5830C00E871DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 		7AFC74AE26E5830B00E871DE = {
 			isa = PBXGroup;
 			children = (
+				7AE128B526E6BFF2002E44CE /* LICENSE.md */,
 				7AFC74B326E5830B00E871DE /* Shared */,
 				7AFC74C926E5830C00E871DE /* Tests iOS */,
 				7AFC74D326E5830C00E871DE /* Tests macOS */,
