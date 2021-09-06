@@ -21,9 +21,10 @@ struct ContentView: View {
 			VStack (alignment: .leading) {
 				HStack {
 					VStack (alignment: .leading) {
-						Text("Octal".uppercased())
+						Text("Octal")
 							.font(.caption.bold())
 							.foregroundColor(.secondary)
+							.textCase(.uppercase)
 						if #available(macOS 12, *, iOS 15, *) {
 							Text("\(permissions.octal)")
 								.textSelection(.enabled)
@@ -39,9 +40,10 @@ struct ContentView: View {
 					}
 
 					VStack (alignment: .leading) {
-						Text("Symbolic".uppercased())
+						Text("Symbolic")
 							.font(.caption.bold())
 							.foregroundColor(.secondary)
+							.textCase(.uppercase)
 						if #available(macOS 12, *, iOS 15, *) {
 							Text("\(permissions.octal)")
 								.textSelection(.enabled)
@@ -60,9 +62,10 @@ struct ContentView: View {
 				.frame(minHeight: 60)
 
 				VStack (alignment: .leading) {
-					Text("Command".uppercased())
+					Text("Command")
 						.font(.caption.bold())
 						.foregroundColor(.secondary)
+						.textCase(.uppercase)
 					if #available(macOS 12, *, iOS 15, *) {
 						Text("chmod \(permissions.octal) name_of_file")
 							.font(.system(.body, design: .monospaced))

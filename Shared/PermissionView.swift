@@ -13,10 +13,11 @@ struct PermissionView: View {
 
     var body: some View {
 		VStack (alignment: .leading) {
-			Text(name.uppercased())
+			Text(name)
 				.font(.caption)
 				.foregroundColor(.secondary)
 				.fontWeight(.medium)
+				.textCase(.uppercase)
 
 			// HACK: this should be iterating over the array, but not sure how to handle labels cleanly in that case
 			Toggle(isOn: $permissionArray[2]) {
