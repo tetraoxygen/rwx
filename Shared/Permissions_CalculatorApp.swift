@@ -13,5 +13,15 @@ struct Permissions_CalculatorApp: App {
         WindowGroup {
             ContentView()
         }
+//		.commands {
+//			CommandGroup(replacing: .pasteboard) {
+//				Button(action: {
+//
+//					print("wrote to pasteboard")
+//				}, label: {
+//					Text("Copy")
+//				})
+//			}
+//		}
     }
 }

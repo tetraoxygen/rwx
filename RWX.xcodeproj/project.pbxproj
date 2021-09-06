@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,8 +46,8 @@
 		7AFC74B426E5830B00E871DE /* Permissions_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions_CalculatorApp.swift; sourceTree = "<group>"; };
 		7AFC74B526E5830B00E871DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AFC74B626E5830C00E871DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7AFC74BB26E5830C00E871DE /* Permissions Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Permissions Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AFC74C126E5830C00E871DE /* Permissions Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Permissions Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC74BB26E5830C00E871DE /* RWX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC74C126E5830C00E871DE /* RWX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFC74C626E5830C00E871DE /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFC74CA26E5830C00E871DE /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		7AFC74D026E5830C00E871DE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,8 +117,8 @@
 		7AFC74BC26E5830C00E871DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AFC74BB26E5830C00E871DE /* Permissions Calculator.app */,
-				7AFC74C126E5830C00E871DE /* Permissions Calculator.app */,
+				7AFC74BB26E5830C00E871DE /* RWX.app */,
+				7AFC74C126E5830C00E871DE /* RWX.app */,
 				7AFC74C626E5830C00E871DE /* Tests iOS.xctest */,
 				7AFC74D026E5830C00E871DE /* Tests macOS.xctest */,
 			);
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AFC74BA26E5830C00E871DE /* Permissions Calculator (iOS) */ = {
+		7AFC74BA26E5830C00E871DE /* RWX (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AFC74DE26E5830C00E871DE /* Build configuration list for PBXNativeTarget "Permissions Calculator (iOS)" */;
+			buildConfigurationList = 7AFC74DE26E5830C00E871DE /* Build configuration list for PBXNativeTarget "RWX (iOS)" */;
 			buildPhases = (
 				7AFC74B726E5830C00E871DE /* Sources */,
 				7AFC74B826E5830C00E871DE /* Frameworks */,
@@ -156,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = "Permissions Calculator (iOS)";
+			name = "RWX (iOS)";
 			productName = "Permissions Calculator (iOS)";
-			productReference = 7AFC74BB26E5830C00E871DE /* Permissions Calculator.app */;
+			productReference = 7AFC74BB26E5830C00E871DE /* RWX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7AFC74C026E5830C00E871DE /* Permissions Calculator (macOS) */ = {
+		7AFC74C026E5830C00E871DE /* RWX (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AFC74E126E5830C00E871DE /* Build configuration list for PBXNativeTarget "Permissions Calculator (macOS)" */;
+			buildConfigurationList = 7AFC74E126E5830C00E871DE /* Build configuration list for PBXNativeTarget "RWX (macOS)" */;
 			buildPhases = (
 				7AFC74BD26E5830C00E871DE /* Sources */,
 				7AFC74BE26E5830C00E871DE /* Frameworks */,
@@ -173,9 +173,9 @@
 			);
 			dependencies = (
 			);
-			name = "Permissions Calculator (macOS)";
+			name = "RWX (macOS)";
 			productName = "Permissions Calculator (macOS)";
-			productReference = 7AFC74C126E5830C00E871DE /* Permissions Calculator.app */;
+			productReference = 7AFC74C126E5830C00E871DE /* RWX.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7AFC74C526E5830C00E871DE /* Tests iOS */ = {
@@ -240,8 +240,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AFC74B226E5830B00E871DE /* Build configuration list for PBXProject "Permissions Calculator" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 7AFC74B226E5830B00E871DE /* Build configuration list for PBXProject "RWX" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -253,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AFC74BA26E5830C00E871DE /* Permissions Calculator (iOS) */,
-				7AFC74C026E5830C00E871DE /* Permissions Calculator (macOS) */,
+				7AFC74BA26E5830C00E871DE /* RWX (iOS) */,
+				7AFC74C026E5830C00E871DE /* RWX (macOS) */,
 				7AFC74C526E5830C00E871DE /* Tests iOS */,
 				7AFC74CF26E5830C00E871DE /* Tests macOS */,
 			);
@@ -342,12 +342,12 @@
 /* Begin PBXTargetDependency section */
 		7AFC74C826E5830C00E871DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AFC74BA26E5830C00E871DE /* Permissions Calculator (iOS) */;
+			target = 7AFC74BA26E5830C00E871DE /* RWX (iOS) */;
 			targetProxy = 7AFC74C726E5830C00E871DE /* PBXContainerItemProxy */;
 		};
 		7AFC74D226E5830C00E871DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AFC74C026E5830C00E871DE /* Permissions Calculator (macOS) */;
+			target = 7AFC74C026E5830C00E871DE /* RWX (macOS) */;
 			targetProxy = 7AFC74D126E5830C00E871DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -471,7 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -485,8 +485,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cwelsh.Permissions-Calculator";
-				PRODUCT_NAME = "Permissions Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allotrope.cwelsh.rwx;
+				PRODUCT_NAME = RWX;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -501,7 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -515,8 +515,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cwelsh.Permissions-Calculator";
-				PRODUCT_NAME = "Permissions Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allotrope.cwelsh.rwx;
+				PRODUCT_NAME = RWX;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -533,12 +533,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -546,8 +547,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cwelsh.Permissions-Calculator";
-				PRODUCT_NAME = "Permissions Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allotrope.cwelsh.rwx;
+				PRODUCT_NAME = RWX;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -562,12 +563,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -575,8 +577,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cwelsh.Permissions-Calculator";
-				PRODUCT_NAME = "Permissions Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allotrope.cwelsh.rwx;
+				PRODUCT_NAME = RWX;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -589,7 +591,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -614,7 +616,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -641,7 +643,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -666,7 +668,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MY38XGZ6N8;
+				DEVELOPMENT_TEAM = ZCCWFHG6T3;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -687,7 +689,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AFC74B226E5830B00E871DE /* Build configuration list for PBXProject "Permissions Calculator" */ = {
+		7AFC74B226E5830B00E871DE /* Build configuration list for PBXProject "RWX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AFC74DC26E5830C00E871DE /* Debug */,
@@ -696,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AFC74DE26E5830C00E871DE /* Build configuration list for PBXNativeTarget "Permissions Calculator (iOS)" */ = {
+		7AFC74DE26E5830C00E871DE /* Build configuration list for PBXNativeTarget "RWX (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AFC74DF26E5830C00E871DE /* Debug */,
@@ -705,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AFC74E126E5830C00E871DE /* Build configuration list for PBXNativeTarget "Permissions Calculator (macOS)" */ = {
+		7AFC74E126E5830C00E871DE /* Build configuration list for PBXNativeTarget "RWX (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AFC74E226E5830C00E871DE /* Debug */,
