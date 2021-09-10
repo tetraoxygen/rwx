@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3242A926EC0BAA00B3591E /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242A826EC0BAA00B3591E /* CommandView.swift */; };
+		7A3242AA26EC0BAA00B3591E /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242A826EC0BAA00B3591E /* CommandView.swift */; };
+		7A3242AC26EC0C2600B3591E /* SymbolicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242AB26EC0C2600B3591E /* SymbolicView.swift */; };
+		7A3242AD26EC0C2600B3591E /* SymbolicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242AB26EC0C2600B3591E /* SymbolicView.swift */; };
+		7A3242AF26EC0C4F00B3591E /* OctalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242AE26EC0C4F00B3591E /* OctalView.swift */; };
+		7A3242B026EC0C4F00B3591E /* OctalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242AE26EC0C4F00B3591E /* OctalView.swift */; };
+		7A3242B226EC0C9F00B3591E /* ClipboardStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242B126EC0C9F00B3591E /* ClipboardStuff.swift */; };
+		7A3242B326EC0C9F00B3591E /* ClipboardStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3242B126EC0C9F00B3591E /* ClipboardStuff.swift */; };
 		7AFC74CB26E5830C00E871DE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74CA26E5830C00E871DE /* Tests_iOS.swift */; };
 		7AFC74D526E5830C00E871DE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74D426E5830C00E871DE /* Tests_macOS.swift */; };
 		7AFC74D626E5830C00E871DE /* Permissions_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC74B426E5830B00E871DE /* Permissions_CalculatorApp.swift */; };
@@ -43,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3242A826EC0BAA00B3591E /* CommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandView.swift; sourceTree = "<group>"; };
+		7A3242AB26EC0C2600B3591E /* SymbolicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolicView.swift; sourceTree = "<group>"; };
+		7A3242AE26EC0C4F00B3591E /* OctalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctalView.swift; sourceTree = "<group>"; };
+		7A3242B126EC0C9F00B3591E /* ClipboardStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardStuff.swift; sourceTree = "<group>"; };
 		7AE128B526E6BFF2002E44CE /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		7AFC74B426E5830B00E871DE /* Permissions_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions_CalculatorApp.swift; sourceTree = "<group>"; };
 		7AFC74B526E5830B00E871DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,8 +120,12 @@
 				7AFC74F026E58C1A00E871DE /* StringEncoding.swift */,
 				7AFC74B426E5830B00E871DE /* Permissions_CalculatorApp.swift */,
 				7AFC74B526E5830B00E871DE /* ContentView.swift */,
+				7A3242AE26EC0C4F00B3591E /* OctalView.swift */,
+				7A3242AB26EC0C2600B3591E /* SymbolicView.swift */,
+				7A3242A826EC0BAA00B3591E /* CommandView.swift */,
 				7AFC74F326E5996E00E871DE /* Permissions.swift */,
 				7AFC74ED26E5884300E871DE /* BitArray.swift */,
+				7A3242B126EC0C9F00B3591E /* ClipboardStuff.swift */,
 				7AFC74EA26E5840C00E871DE /* PermissionView.swift */,
 				7AFC74B626E5830C00E871DE /* Assets.xcassets */,
 			);
@@ -303,8 +319,12 @@
 			files = (
 				7AFC74F126E58C1A00E871DE /* StringEncoding.swift in Sources */,
 				7AFC74EB26E5840C00E871DE /* PermissionView.swift in Sources */,
+				7A3242AC26EC0C2600B3591E /* SymbolicView.swift in Sources */,
+				7A3242AF26EC0C4F00B3591E /* OctalView.swift in Sources */,
 				7AFC74D826E5830C00E871DE /* ContentView.swift in Sources */,
+				7A3242A926EC0BAA00B3591E /* CommandView.swift in Sources */,
 				7AFC74F426E5996E00E871DE /* Permissions.swift in Sources */,
+				7A3242B226EC0C9F00B3591E /* ClipboardStuff.swift in Sources */,
 				7AFC74D626E5830C00E871DE /* Permissions_CalculatorApp.swift in Sources */,
 				7AFC74EE26E5884300E871DE /* BitArray.swift in Sources */,
 			);
@@ -316,8 +336,12 @@
 			files = (
 				7AFC74F226E58C1A00E871DE /* StringEncoding.swift in Sources */,
 				7AFC74EC26E5840C00E871DE /* PermissionView.swift in Sources */,
+				7A3242AD26EC0C2600B3591E /* SymbolicView.swift in Sources */,
+				7A3242B026EC0C4F00B3591E /* OctalView.swift in Sources */,
 				7AFC74D926E5830C00E871DE /* ContentView.swift in Sources */,
+				7A3242AA26EC0BAA00B3591E /* CommandView.swift in Sources */,
 				7AFC74F526E5996E00E871DE /* Permissions.swift in Sources */,
+				7A3242B326EC0C9F00B3591E /* ClipboardStuff.swift in Sources */,
 				7AFC74D726E5830C00E871DE /* Permissions_CalculatorApp.swift in Sources */,
 				7AFC74EF26E5884300E871DE /* BitArray.swift in Sources */,
 			);

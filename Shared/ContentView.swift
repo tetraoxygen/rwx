@@ -20,67 +20,16 @@ struct ContentView: View {
 		VStack {
 			VStack (alignment: .leading) {
 				HStack {
-					VStack (alignment: .leading) {
-						Text("Octal")
-							.font(.caption.bold())
-							.foregroundColor(.secondary)
-							.textCase(.uppercase)
-						if #available(macOS 12, *, iOS 15, *) {
-							Text("\(permissions.octal)")
-								.textSelection(.enabled)
+					OctalView(permissions: $permissions)
 
-						} else {
-							Text("\(permissions.octal)")
-								.contextMenu(ContextMenu(menuItems: {
-									Button("Copy", action: {
-										copyToClipboard(textToCopy: permissions.octal)
-									})
-								}))
-						}
-					}
+					Spacer()
+						.frame(width: 16)
 
-					VStack (alignment: .leading) {
-						Text("Symbolic")
-							.font(.caption.bold())
-							.foregroundColor(.secondary)
-							.textCase(.uppercase)
-						if #available(macOS 12, *, iOS 15, *) {
-							Text("\(permissions.octal)")
-								.textSelection(.enabled)
-
-						} else {
-							Text("\(permissions.symbolic)")
-								.contextMenu(ContextMenu(menuItems: {
-									Button("Copy", action: {
-										copyToClipboard(textToCopy: permissions.symbolic)
-									})
-								}))
-						}
-					}
+					SymbolicView(permissions: $permissions)
 				}
 				.font(.system(.largeTitle, design: .monospaced))
-				.frame(minHeight: 60)
-
-				VStack (alignment: .leading) {
-					Text("Command")
-						.font(.caption.bold())
-						.foregroundColor(.secondary)
-						.textCase(.uppercase)
-					if #available(macOS 12, *, iOS 15, *) {
-						Text("chmod \(permissions.octal) name_of_file")
-							.font(.system(.body, design: .monospaced))
-							.textSelection(.enabled)
-					} else {
-						Text("chmod \(permissions.octal) name_of_file")
-							.font(.system(.body, design: .monospaced))
-							.contextMenu(ContextMenu(menuItems: {
-								Button("Copy", action: {
-									copyToClipboard(textToCopy: "chmod \(permissions.octal) name_of_file")
-								})
-							}))
-					}
-				}
-				.frame(minHeight: 30)
+				.frame(minHeight: 72)
+				CommandView(permissions: $permissions)
 			}
 			HStack {
 				PermissionView(permissionArray: $permissions.matrix[0], name: "User")
@@ -92,16 +41,6 @@ struct ContentView: View {
 		}
 		.padding()
     }
-
-	private func copyToClipboard(textToCopy: String) {
-	#if os(iOS)
-		UIPasteboard.general.string = textToCopy
-	#elseif os(macOS)
-		let pasteboard = NSPasteboard.general
-		pasteboard.clearContents()
-		pasteboard.setString(textToCopy, forType: .string)
-	#endif
-	}
 }
 
 struct ContentView_Previews: PreviewProvider {
